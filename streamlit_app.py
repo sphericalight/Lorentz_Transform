@@ -19,7 +19,7 @@ u = st.slider("Velocity (u/c)", 0.0, 0.99, 0.5)
 
 #ct = 5
 #v = 0.6
-$u = 0.8
+#u = 0.8
 # show_prime is toggle; "True" for showing the primed parameter x' and ct' or "False" for suppressing them
 # show_negative is toggle; "True" for showing negative x and x' or "False" for suppressing them
 # set show_negative to "True" if the negative velocities are involved
