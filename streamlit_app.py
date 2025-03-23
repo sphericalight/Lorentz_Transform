@@ -12,12 +12,14 @@ import matplotlib.pyplot as plt
 # u is velocity that define the event or velocity of second as the fraction to speed of light c (relative to stationary frame)
 
 # User input
-v = st.slider("Velocity (v/c)", 0.0, 0.99, 0.5)
 ct = st.number_input("Time (t)", value=1.0)
+v = st.slider("Velocity (v/c)", 0.0, 0.99, 0.5)
+u = st.slider("Velocity (u/c)", 0.0, 0.99, 0.5)
+
 
 #ct = 5
 #v = 0.6
-u = 0.8
+$u = 0.8
 # show_prime is toggle; "True" for showing the primed parameter x' and ct' or "False" for suppressing them
 # show_negative is toggle; "True" for showing negative x and x' or "False" for suppressing them
 # set show_negative to "True" if the negative velocities are involved
