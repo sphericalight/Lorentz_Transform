@@ -22,7 +22,7 @@ with col1:
     v = st.slider("Velocity (v/c)", 0.0, 0.99, 0.5, orientation="vertical")
 
 with col2:
-    ct = st.number_input("Time (t)", value=1.0)
+    ct = st.number_input("Time (t)", value=5.0)
 
 
 #ct = 5
