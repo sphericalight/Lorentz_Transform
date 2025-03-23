@@ -26,7 +26,7 @@ u = st.slider("Velocity (u/c)", 0.0, 0.99, 0.5)
 x = ct * u
 p_os=ct/50
 show_prime=True
-show_negative=False
+show_negative=True
 
 gamma = 1
 if show_prime:
