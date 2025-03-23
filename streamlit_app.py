@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.stats import false_discovery_control
+#from scipy.stats import false_discovery_control
 
 # A Real-Space Formulation of Special Relativity
 # by Paulus Helly
