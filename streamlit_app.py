@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 #v = st.slider("Velocity (v/c)", 0.0, 0.99, 0.5)
 #u = st.slider("Velocity (u/c)", 0.0, 0.99, 0.5)
 
-col1, col2 = st.columns([1, 4])  # Narrow column on the left
+col1, col2 = st.columns([1, 5])  # Narrow column on the left
 
 with col1:
     v = st.slider("Velocity (v/c)", 0.0, 0.99, 0.6, orientation="vertical")
