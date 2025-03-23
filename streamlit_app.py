@@ -12,9 +12,9 @@ import matplotlib.pyplot as plt
 # u is velocity that define the event or velocity of second as the fraction to speed of light c (relative to stationary frame)
 
 # User input
-ct = st.number_input("Time (t)", value=1.0)
-v = st.slider("Velocity (v/c)", 0.0, 0.99, 0.5)
-u = st.slider("Velocity (u/c)", 0.0, 0.99, 0.5)
+ct = st.number_input("Time (t)", value=5.0)
+v = st.slider("Velocity (v/c)", 0.0, 0.99, 0.6)
+u = st.slider("Velocity (u/c)", 0.0, 0.99, 0.8)
 
 #col1, col2 = st.columns([1, 5])  # Narrow column on the left
 
