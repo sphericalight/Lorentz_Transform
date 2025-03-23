@@ -42,7 +42,7 @@ if show_prime:
     gamma = gamma / np.sqrt(1 - np.power(v, 2))
 
 # Define figure and axis with larger size
-fig = plt.figure(figsize=(6, 8))  # Increased height for better centering
+fig = plt.figure(figsize=(10, 12))  # Increased height for better centering
 
 # Main plot (Centered)
 ax1 = fig.add_subplot(111, position=[0.15, 0.15, 0.7, 0.75])  # Adjusted to center
